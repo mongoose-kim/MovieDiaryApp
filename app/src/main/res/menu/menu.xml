@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="영화 추가"
+        android:id="@+id/add"/>
+    <item android:title="영화 검색"
+        android:id="@+id/find"/>
+    <item android:title="개발자 소개"
+        android:id="@+id/developer"/>
+    <item android:title="앱 종료"
+        android:id="@+id/exit"/>
+</menu>

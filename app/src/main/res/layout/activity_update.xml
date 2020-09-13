@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="영화 수정"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewBlank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageMovie"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="영화제목" />
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="none" />
+
+    <TextView
+        android:id="@+id/textView_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="감독" />
+
+    <EditText
+        android:id="@+id/et_director"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="none" />
+
+    <TextView
+        android:id="@+id/textView_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="주연" />
+
+    <EditText
+        android:id="@+id/et_actor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="none" />
+
+    <TextView
+        android:id="@+id/textView_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="장르" />
+
+    <EditText
+        android:id="@+id/et_genre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="none" />
+
+    <TextView
+        android:id="@+id/text_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="국가" />
+
+    <EditText
+        android:id="@+id/et_nation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="none" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="수정" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="취소" />
+    </LinearLayout>
+
+</LinearLayout>

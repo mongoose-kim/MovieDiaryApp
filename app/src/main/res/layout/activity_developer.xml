@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_info"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:shadowColor="#7A7272"
+            android:text="개발자 소개"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textColorHighlight="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_weight="2"
+            app:srcCompat="@mipmap/rumi"
+            tools:srcCompat="@mipmap/rumi" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="김성희\n1997.07.28(여)\n동덕여자대학교 컴퓨터학과 재학중\n모바일 소프트웨어 01분반"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+</LinearLayout>
